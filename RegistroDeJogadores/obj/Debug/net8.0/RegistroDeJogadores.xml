@@ -1,0 +1,92 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>RegistroDeJogadores</name>
+    </assembly>
+    <members>
+        <member name="M:RegistroDeJogadores.Controllers.JogadoresController.GetJogadorePorClube(System.Int32)">
+            <summary>
+            Obter todos jogadores de um Clube
+            </summary>
+            <returns>Uma lista de jogadores de um Clube</returns>
+        </member>
+        <member name="M:RegistroDeJogadores.Controllers.JogadoresController.Get">
+            <summary>
+            Obter todos os jogadores 
+            </summary>
+            <returns>Uma lista de todos jogadores </returns>
+        </member>
+        <member name="M:RegistroDeJogadores.Controllers.JogadoresController.GetJogador(System.Int32)">
+            <summary>
+            Obter um Jogador atraves do Id
+            </summary>
+            <returns>Um Jogador</returns>
+        </member>
+        <member name="M:RegistroDeJogadores.Controllers.JogadoresController.Post(RegistroDeJogadores.Models.Jogador)">
+            <summary>
+            Adiciona um novo Jogador ao sistema
+            </summary>
+            <returns>Um novo Jogador</returns>
+        </member>
+        <member name="M:RegistroDeJogadores.Controllers.JogadoresController.Put(System.Int32,RegistroDeJogadores.Models.Jogador)">
+            <summary>
+            Atualiza informações de um Jogador
+            </summary>
+            <returns>Um Jogador com dados atualizados</returns>
+        </member>
+        <member name="M:RegistroDeJogadores.Controllers.JogadoresController.Delete(System.Int32)">
+            <summary>
+            Apaga um jogador do sistema
+            </summary>
+            <returns>Um jogador removido</returns>
+        </member>
+        <member name="T:RegistroDeJogadores.Migrations.MigracaoInicial">
+            <inheritdoc />
+        </member>
+        <member name="M:RegistroDeJogadores.Migrations.MigracaoInicial.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:RegistroDeJogadores.Migrations.MigracaoInicial.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:RegistroDeJogadores.Migrations.MigracaoInicial.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:RegistroDeJogadores.Migrations.DataAnnotations">
+            <inheritdoc />
+        </member>
+        <member name="M:RegistroDeJogadores.Migrations.DataAnnotations.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:RegistroDeJogadores.Migrations.DataAnnotations.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:RegistroDeJogadores.Migrations.DataAnnotations.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:RegistroDeJogadores.Migrations.ModificarNascimento">
+            <inheritdoc />
+        </member>
+        <member name="M:RegistroDeJogadores.Migrations.ModificarNascimento.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:RegistroDeJogadores.Migrations.ModificarNascimento.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:RegistroDeJogadores.Migrations.ModificarNascimento.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:RegistroDeJogadores.Migrations.PopularClubes">
+            <inheritdoc />
+        </member>
+        <member name="M:RegistroDeJogadores.Migrations.PopularClubes.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:RegistroDeJogadores.Migrations.PopularClubes.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:RegistroDeJogadores.Migrations.PopularClubes.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+    </members>
+</doc>
